@@ -1,0 +1,108 @@
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+  -webkit-user-select: none;
+          user-select: none;
+  -webkit-touch-callout: none;
+  overflow: hidden;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+.App {
+  height: 100%;
+  display: flex;
+}
+
+.App.portrait {
+  flex-direction: column;
+}
+
+.App.landscape {
+  flex-direction: row;
+}
+
+.Dpad {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  opacity: 1;
+  transition: opacity 0.2s;
+}
+
+.Dpad.hidden {
+  opacity: 0;
+}
+
+.Dpad.portrait {
+  max-height: 22%;
+}
+
+.Dpad.landscape {
+  max-width: 22%;
+}
+
+.Dpad > img {
+  max-width: 100%;
+  max-height: 100%;
+  touch-action: none;
+}
+
+.Game {
+  flex-grow: 1;
+}
+
+.Game.portrait {
+  max-height: 60%;
+}
+
+.Game.landscape {
+  max-width: 56%;
+}
+
+.Select {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  opacity: 1;
+  transition: opacity 0.2s;
+}
+
+.Select.hidden {
+  opacity: 0;
+}
+
+.Select.portrait {
+  max-height: 18%;
+}
+
+.Select.landscape {
+  max-width: 22%;
+}
+
+.Select > img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+/*# sourceMappingURL=main.b9abad74.css.map*/
