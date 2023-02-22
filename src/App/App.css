@@ -1,0 +1,12 @@
+.App {
+  height: 100%;
+  display: flex;
+}
+
+.App.portrait {
+  flex-direction: column;
+}
+
+.App.landscape {
+  flex-direction: row;
+}

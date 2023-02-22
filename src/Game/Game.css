@@ -1,0 +1,11 @@
+.Game {
+  flex-grow: 1;
+}
+
+.Game.portrait {
+  max-height: 60%;
+}
+
+.Game.landscape {
+  max-width: 56%;
+}

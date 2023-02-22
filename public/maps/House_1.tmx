@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="21" height="16" tilewidth="16" tileheight="16" infinite="0" nextlayerid="5" nextobjectid="104">
+ <editorsettings>
+  <export target="House_1.json" format="json"/>
+ </editorsettings>
+ <tileset firstgid="1" source="Snowsuit.tsx"/>
+ <tileset firstgid="21" source="Character.tsx"/>
+ <tileset firstgid="49" source="Mole.tsx"/>
+ <tileset firstgid="65" source="tiles.tsx"/>
+ <layer id="1" name="0_bg" width="21" height="16">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,85,85,85,85,85,85,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,85,85,85,85,85,85,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,85,85,85,85,85,85,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,85,85,85,85,85,85,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,85,85,85,85,85,85,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,85,85,85,85,85,85,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="2" name="0_object">
+  <object id="87" gid="173" x="58" y="168" width="16" height="16"/>
+  <object id="88" gid="174" x="74" y="168" width="16" height="16"/>
+  <object id="89" gid="175" x="90" y="168" width="16" height="16"/>
+  <object id="90" gid="188" x="90" y="184" width="16" height="16"/>
+  <object id="91" gid="187" x="74" y="184" width="16" height="16"/>
+  <object id="92" gid="186" x="58" y="184" width="16" height="16"/>
+  <object id="93" gid="199" x="58" y="200" width="16" height="16"/>
+  <object id="94" gid="200" x="74" y="200" width="16" height="16"/>
+  <object id="95" gid="201" x="90" y="200" width="16" height="16"/>
+ </objectgroup>
+ <layer id="3" name="1_collide" width="21" height="16">
+  <properties>
+   <property name="depth" type="int" value="1"/>
+   <property name="type" value="collide"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,75,76,76,76,76,76,76,77,0,0,0,0,0,0,0,0,0,0,0,0,
+0,88,0,0,0,0,0,0,90,0,0,0,0,0,0,0,0,0,0,0,0,
+0,101,0,0,0,0,0,0,103,0,0,0,0,0,0,0,0,0,0,0,0,
+0,101,0,0,0,0,0,0,103,0,0,0,0,0,0,0,0,0,0,0,0,
+0,101,0,0,0,0,0,0,103,0,0,0,0,0,0,0,0,0,0,0,0,
+0,101,0,0,0,0,0,0,103,0,0,0,0,0,0,0,0,0,0,0,0,
+0,114,0,0,0,0,0,0,116,0,0,0,0,0,0,0,0,0,0,0,0,
+0,127,128,128,89,102,115,128,129,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="4" name="1_object">
+  <properties>
+   <property name="depth" type="int" value="1"/>
+  </properties>
+  <object id="77" gid="1" x="97" y="140" width="16" height="16"/>
+  <object id="84" gid="21" x="80" y="248" width="16" height="16"/>
+  <object id="96" gid="207" x="112" y="143" width="16" height="16"/>
+  <object id="97" gid="86" x="111" y="223" width="16" height="16"/>
+  <object id="98" gid="2147483731" x="50" y="221" width="16" height="16"/>
+  <object id="99" gid="84" x="34" y="222" width="16" height="16"/>
+  <object id="100" gid="176" x="33" y="123" width="16" height="16"/>
+  <object id="101" gid="177" x="49" y="123" width="16" height="16"/>
+  <object id="102" gid="189" x="33" y="139" width="16" height="16"/>
+  <object id="103" gid="190" x="49" y="139" width="16" height="16"/>
+ </objectgroup>
+</map>
