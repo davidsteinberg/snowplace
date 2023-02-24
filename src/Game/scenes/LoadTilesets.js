@@ -28,7 +28,7 @@ class LoadTilesets extends Load {
           console.log("Loading tileset/spritesheet: ", name);
         }
 
-        const fullImage = image.replace("..", "");
+        const fullImage = image.replace("../", "");
 
         this.load.spritesheet(name, fullImage, {
           frameWidth: tilewidth,
